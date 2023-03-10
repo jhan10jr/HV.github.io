@@ -9,19 +9,32 @@ padding: 0;
 }
 
 
-.body {
+body {
 
 
 display: flex;
+justify-content: center;
+font-family: 'Golos Text', sans-serif;
+
+background-color: #c4c9f9;
 
 }
 
 .contenido {
+   
+      
+    background-image: url(/HV.github.io/img/layered-peaks-haikei\ \(2\).png);
 
-    justify-self: center;
+    background-repeat: no-repeat;
+    background-size: 700px  1200px;
+    
      width: 50%;
+    border: 2px solid black;
+     margin: 10px;
+     padding: 14px;
     display: flex;
     flex-direction: column;
+    
 }
 .foto {
 
@@ -38,4 +51,16 @@ display: flex;
     height: 200px;
 
 }
+
+* span {
+
+    font-weight: bold;
+}
+
+
+
+
+
+
+
 

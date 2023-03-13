@@ -12,6 +12,13 @@ body {
 }
 
 
+.foto img {
+
+    max-height: 150px;
+    max-width: 90px;
+
+}
+
 
 }
 
